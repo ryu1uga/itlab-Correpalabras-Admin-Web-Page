@@ -1,0 +1,50 @@
+.categorias-page {
+  text-align: center;
+  border: 1px solid none;
+  margin: 100px 20px 20px 20px; /* Centrado horizontal */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.categorias-page h1 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.categories-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 12px; /* Espacio entre elementos */
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px; /* Listar ancho para la lista */
+}
+
+.nueva-cat {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px; /* Añadido espacio abajo */
+}
+
+.nueva-cat button {
+  margin-bottom: 0px;
+  background-color: #f35424;
+  border-radius: 7px;
+  width: auto;
+  padding: 12px 20px; /* Más padding horizontal */
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nueva-cat button:hover {
+  background-color: #df704e;
+}

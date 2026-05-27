@@ -1,0 +1,268 @@
+.avatars-page {
+  padding: 20px;
+  margin: 80px 20px 20px 20px; 
+}
+
+/* Sección de carga */
+.upload-section {
+
+  padding: 30px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.upload-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Grupos de formulario */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Input de archivo personalizado */
+.file-input-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.file-input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+  background-color: white;
+}
+
+.file-input-label {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Select de historias */
+.story-select {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+  background-color: white;
+  font-size: 1rem;
+}
+
+/* Contenedor de vista previa y botón */
+.preview-and-submit {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+/* Vista previa */
+.preview-container {
+  flex: 0 0 auto;
+}
+
+.preview-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.preview-image {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Botón de envío */
+.submit-button {
+  background-color: #f35424;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+  margin-top: auto;
+  width: auto;
+}
+
+.submit-button:hover {
+  background-color: #df704e;
+}
+
+.submit-button:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+/* Animación de carga */
+.loader {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 1s ease-in-out infinite;
+  margin-right: 8px;
+}
+
+.avatars-container {
+  margin-top: 40px;
+}
+
+.avatars-title {
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.no-avatars {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+  color: #666;
+  border: 1px dashed #ddd;
+}
+
+.avatars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.avatar-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: white;
+}
+
+.avatar-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-image-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* Mantiene la relación de aspecto cuadrada */
+  overflow: hidden;
+}
+
+.avatar-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.avatar-card:hover .avatar-image {
+  transform: scale(1.05);
+}
+
+.avatar-card-footer {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.avatar-story-tag {
+  font-size: 0.8rem;
+  color: #666;
+  background-color: #f0f0f0;
+  padding: 3px 8px;
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.delete-button {
+  background-color: #f35424;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background-color 0.15s ease;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.delete-button:hover {
+  background-color: #df704e;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 600px) {
+  .avatars-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .avatar-card-footer {
+    padding: 8px;
+  }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  .preview-and-submit {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .submit-button {
+    width: 100%;
+  }
+}

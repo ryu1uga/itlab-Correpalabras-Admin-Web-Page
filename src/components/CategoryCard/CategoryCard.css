@@ -1,0 +1,67 @@
+.category-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    flex: 0 0 calc(33.333% - 50px); /* Ancho para 3 tarjetas por fila con espacio entre ellas */
+    min-width: 250px; /* Ancho mínimo para evitar tarjetas demasiado estrechas */
+}
+
+.category-card-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.category-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.category-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.category-code {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    background-color: #f35424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: auto;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+}
+
+.button-container button:hover {
+    background-color: #e18164;
+}
+
+/* .button-container button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+.button-container button:nth-child(2):hover {
+    background-color: #c82333;
+} */

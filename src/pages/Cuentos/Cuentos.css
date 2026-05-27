@@ -1,0 +1,95 @@
+.cuentos-page{
+    text-align: center;
+    border: 1px solid none;
+    margin: 100px 20px 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cuentos-page h1{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 50px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .filter-container select {
+    padding: 8px 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    height: auto;
+  }
+  
+  .filter-container select:focus {
+    border-color: #f35424;
+  }
+  
+  .filter-container select:hover {
+    border-color: #f35424;
+  }
+
+  .nuevo-cuento {
+    display: flex;
+    justify-content:right;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .nuevo-cuento button {
+    margin-bottom: 10px;
+    background-color: #f35424;
+    border-radius: 7px;
+    width: auto;
+    padding: 12px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+   
+  }
+  
+  .nuevo-cuento button:hover {
+    background-color: #df704e;
+  }
+
+  .stories-container{
+    display: flex;                
+    flex-wrap: wrap;            
+    justify-content: center; 
+    gap: 16px;                   
+    margin: 0 auto;              
+    padding: 20px; 
+  }
+
+  .sort-toggle{
+  margin-left: 12px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 12px;
+  background: #f35424;
+  justify-content: flex-end;   
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,.12);
+}
+.sort-toggle:hover{ opacity:.9; }
+

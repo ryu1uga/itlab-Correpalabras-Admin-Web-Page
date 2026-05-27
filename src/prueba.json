@@ -1,0 +1,52 @@
+{"success":true,
+    "data":[{
+        "_id":22,"author":"Jorge Montalvo",
+        "illustrator":"Alfredo Peña",
+        "title":"¿Dónde está mi moneda?",
+        "countPages":8,
+        "thumbnail":"http://correpalabrasprd.ulima.edu.pe/V2/story/thumbnails/THMONEDA.jpg",
+        "updatedAt":"2020-09-09T18:09:56.74",
+        "languages":[
+            {
+                "pages":[
+                    {"_id":1371,"storyId":22,"languageId":1,"textcontent":"Tito cree que está en la mesa, bajo su tambor.","countWords":10,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":1},
+                    {"_id":1372,"storyId":22,"languageId":1,"textcontent":"La busca también bajo su gorra y guantes.","countWords":8,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":2},
+                    {"_id":1373,"storyId":22,"languageId":1,"textcontent":"¿Estará oculta bajo sus cuadernos o libros?","countWords":7,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":3},
+                    {"_id":1374,"storyId":22,"languageId":1,"textcontent":"Seguramente está bajo su taza o plato.","countWords":7,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":4},
+                    {"_id":1375,"storyId":22,"languageId":1,"textcontent":"En eso, recuerda que la puso en otro lugar.","countWords":9,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":5},
+                    {"_id":1376,"storyId":22,"languageId":1,"textcontent":"Tito piensa: “Debo ser más ordenado y menos olvidadizo”.","countWords":9,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":6},
+                    {"_id":1377,"storyId":22,"languageId":1,"textcontent":"¡Me gusta leer!","countWords":3,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":7}
+                ],  
+                "_id":1,
+                "storyId":22,
+                "name":"Español",
+                "attachments":[
+                {"_id":41,"storyId":22,"languageId":1,"imageUri":"http://correpalabrasprd.ulima.edu.pe/V2/story/pages/MONEDA/PORTMONEDA.jpg","typeImage":"Cover","position":"00","orderAttachments":0}]
+            },
+            {
+                "pages":[
+                    {"_id":1438,"storyId":22,"languageId":3,"textcontent":"Titum nin, mesapim kachkan tinyay ukupi, nispa.","countWords":7,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":1},
+                    {"_id":1439,"storyId":22,"languageId":3,"textcontent":"Maskantaqmi chukun hinallataq guantesnin ukupi.","countWords":5,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":2},
+                    {"_id":1440,"storyId":22,"languageId":3,"textcontent":"¿Icha pakasqa kachkan cuadernunkuna utaq librunkuna ukupi?","countWords":7,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":3},
+                    {"_id":1441,"storyId":22,"languageId":3,"textcontent":"Tazan utaq platun ukupicha kachkan.","countWords":5,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":4},
+                    {"_id":1442,"storyId":22,"languageId":3,"textcontent":"Chaynapim, maypi churasqanta yuyarirqun.","countWords":4,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":5},
+                    {"_id":1443,"storyId":22,"languageId":3,"textcontent":"Titum yuyaymanakun: “Ordenadum kanay hinallataq mana qunqaq”.","countWords":7,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":6},
+                    {"_id":1444,"storyId":22,"languageId":3,"textcontent":"¡Qillqakuna ñawinchaymi kusichiwan!","countWords":3,"updatedAt":"2020-09-09T18:09:56.74","pageNOrder":7}
+                ],
+                "_id":3,
+                "storyId":22,
+                "name":"Quechua",
+                "attachments":[{"_id":49,"storyId":22,"languageId":3,"imageUri":"http://correpalabrasprd.ulima.edu.pe/V2/story/pages/MONEDA/QHPORTMONEDA.jpg","typeImage":"Cover","position":"00","orderAttachments":0}]
+            }
+        ],
+                "storyImages":[
+                    {"_id":1090,"storyImageId":22,"imageUri":"http://correpalabrasprd.ulima.edu.pe/V2/story/pages/MONEDA/Moneda1.jpg","updatedAt":"2020-09-09T18:09:56.74"},
+                    {"_id":1091,"storyImageId":22,"imageUri":"http://correpalabrasprd.ulima.edu.pe/V2/story/pages/MONEDA/Moneda2.jpg","updatedAt":"2020-09-09T18:09:56.74"},
+                    {"_id":1092,"storyImageId":22,"imageUri":"http://correpalabrasprd.ulima.edu.pe/V2/story/pages/MONEDA/Moneda3.jpg","updatedAt":"2020-09-09T18:09:56.74"},
+                    {"_id":1093,"storyImageId":22,"imageUri":"http://correpalabrasprd.ulima.edu.pe/V2/story/pages/MONEDA/Moneda4.jpg","updatedAt":"2020-09-09T18:09:56.74"},
+                    {"_id":1094,"storyImageId":22,"imageUri":"http://correpalabrasprd.ulima.edu.pe/V2/story/pages/MONEDA/Moneda5.jpg","updatedAt":"2020-09-09T18:09:56.74"},
+                    {"_id":1095,"storyImageId":22,"imageUri":"http://correpalabrasprd.ulima.edu.pe/V2/story/pages/MONEDA/Moneda6.jpg","updatedAt":"2020-09-09T18:09:56.74"},
+                    {"_id":1096,"storyImageId":22,"imageUri":"http://correpalabrasprd.ulima.edu.pe/V2/story/vistafinal.jpg","updatedAt":"2020-09-09T18:09:56.74"}]}
+    ]
+}
+                
