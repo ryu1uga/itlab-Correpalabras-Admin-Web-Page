@@ -1,11 +1,12 @@
 export const getHeaders = () => {
   const userId = localStorage.getItem('userId');
   const token = localStorage.getItem('userToken');
+  
   return {
     'Accept': '*/*',
     'Content-Type': 'application/json',
-    'UserId': userId,
-    'Token': token
+    'Authorization': token ? `Bearer ${token}` : '',
+    'UserId': userId 
   };
 };
 
@@ -13,10 +14,11 @@ export const getHeaders = () => {
 export const getFormDataHeaders = () => {
   const userId = localStorage.getItem('userId');
   const token = localStorage.getItem('userToken');
+  
   return {
     'Accept': '*/*',
-    'UserId': userId,
-    'Token': token
+    'Authorization': token ? `Bearer ${token}` : '',
+    'UserId': userId
   };
 };
 
